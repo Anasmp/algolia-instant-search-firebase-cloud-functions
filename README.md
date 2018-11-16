@@ -22,3 +22,5 @@ npm install firebase-admin --save &&
 npm install algoliasearch --save
 </code>
 
+<code>sudo firebase serve</code>
+

@@ -1,0 +1,27 @@
+[debug] [2018-11-16T14:38:34.726Z] ----------------------------------------------------------------------
+[debug] [2018-11-16T14:38:34.733Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2018-11-16T14:38:34.734Z] CLI Version:   6.1.0
+[debug] [2018-11-16T14:38:34.734Z] Platform:      darwin
+[debug] [2018-11-16T14:38:34.734Z] Node Version:  v10.13.0
+[debug] [2018-11-16T14:38:34.736Z] Time:          Fri Nov 16 2018 20:08:34 GMT+0530 (India Standard Time)
+[debug] [2018-11-16T14:38:34.736Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-16T14:38:34.775Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-16T14:38:34.777Z] > authorizing via signed-in user
+[debug] [2018-11-16T14:38:34.777Z] [iam] checking project codedady-management for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2018-11-16T14:38:34.784Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-16T14:38:34.785Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-16T15:10:37.148Z] ----------------------------------------------------------------------
+[debug] [2018-11-16T15:10:37.155Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2018-11-16T15:10:37.156Z] CLI Version:   6.1.0
+[debug] [2018-11-16T15:10:37.156Z] Platform:      darwin
+[debug] [2018-11-16T15:10:37.156Z] Node Version:  v10.13.0
+[debug] [2018-11-16T15:10:37.158Z] Time:          Fri Nov 16 2018 20:40:37 GMT+0530 (India Standard Time)
+[debug] [2018-11-16T15:10:37.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-16T15:10:37.194Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-16T15:10:37.195Z] > authorizing via signed-in user
+[debug] [2018-11-16T15:10:37.195Z] [iam] checking project codedady-management for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2018-11-16T15:10:37.202Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/codedady-management:testIamPermissions  
+

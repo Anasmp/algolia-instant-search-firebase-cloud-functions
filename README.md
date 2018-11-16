@@ -24,3 +24,9 @@ npm install algoliasearch --save
 
 <code>sudo firebase serve</code>
 
+
+finally 
+
+<img src="https://raw.githubusercontent.com/Anasmp/algolia-instant-search-firebase-cloud-functions/master/screen.png" width="600" height="400">
+
+<img src="https://raw.githubusercontent.com/Anasmp/algolia-instant-search-firebase-cloud-functions/master/Screenshot%202018-11-16%20at%2010.37.27%20PM.png" width="800" height="500">

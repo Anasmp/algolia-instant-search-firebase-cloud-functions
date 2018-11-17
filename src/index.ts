@@ -4,6 +4,8 @@ import * as algoliasearch from 'algoliasearch'
 
 var client = algoliasearch('LGMCRQQ9DM', 'd84e921aa7b341fd41f2d9f9e7865fbc');
 var index = client.initIndex('contacts');
+
+//replace with your firebase admin service json file
 var serviceAccount = require('./codedady.json');
 
 admin.initializeApp({

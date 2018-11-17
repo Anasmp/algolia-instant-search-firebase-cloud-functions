@@ -2,7 +2,9 @@ import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 import * as algoliasearch from 'algoliasearch'
 
-var client = algoliasearch('LGMCRQQ9DM', 'd84e921aa7b341fd41f2d9f9e7865fbc');
+
+//replace with your secret key and api key
+var client = algoliasearch('SECRET_KEY', 'API_KEY');
 var index = client.initIndex('contacts');
 
 //replace with your firebase admin service json file
@@ -37,7 +39,7 @@ export const helloWorld = functions.https.onRequest((req, res) => {
         });
 });
 
-
+//add user detail to algolia
 function addUser (res,user) {
     res.json(user)
       var objects = [{
